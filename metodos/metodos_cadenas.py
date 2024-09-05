@@ -37,8 +37,20 @@ es_numerico = cadena1.isnumeric()
 #si es alfanumerico devolvemos true
 es_alfanumerico = cadena1.isalpha()
 
-#buscamos una cadena en otra cadena, devuelve la cantidad de veces que coincida
+#contamos las coincidencias de una cadena dentro de otra cadena, devuelve la cantidad de coincidencias
 contar_coincidencias = cadena1.count("a")
 
-#
+#contamos cuantos caracteres tiene una cadena, len() es una funcion por lo que se le pasa la cadena que se quiere contar
+contar_caracteres = len(cadena1)
 
+#Verificar si una cadena empieza con otra cadena dada, si es asi devuelve true
+empieza_con = cadena1.startswith("h")
+
+#Verificar si una cadena termina con otra cadena dada, si es asi devuelve true
+empieza_con = cadena1.endswith("la")
+
+#reemplaza un pedazo de la cadena dada por otra
+cadena_nueva = cadena1.replace("hola", "Hola leo" )
+
+#Separar cadenas con la cadna que le pasemos
+cadena_separada = cadena1.split(",")
